@@ -56,5 +56,40 @@ li {
     left: 130px;
 }
 
+nav{
+    background-color:gainsboro;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+}
+nav ul {
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0 auto;
+    width: 100%;
+}
+nav li {
+    display: inline-block;
+    text-align: left;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+nav a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    height: 70px;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+li a:hover {
+    background-color: cornflowerblue;
+}
+
 
 
